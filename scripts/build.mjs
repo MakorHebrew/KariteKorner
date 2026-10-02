@@ -318,8 +318,15 @@ function renderHome(outline, redirects) {
     .map((group) => {
       const items = group.links
         .map(([href, label]) => {
-          const off = redirects[`/${href}`] ? ' <span class="offsite">off-site</span>' : "";
-          return `<li><a href="${escapeHtml(href)}">${escapeHtml(label)}</a>${off}</li>`;
+          const icon = '<svg class="external" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg><span class="visually-hidden"> (external link)</span>';
+          let text = escapeHtml(label);
+          if (redirects[`/${href}`]) {
+            const parts = label.split(" ");
+            const last = escapeHtml(parts.pop());
+            const head = parts.length ? `${escapeHtml(parts.join(" "))} ` : "";
+            text = `${head}<span class="nowrap">${last}${icon}</span>`;
+          }
+          return `<li><a href="${escapeHtml(href)}">${text}</a></li>`;
         })
         .join("");
       return `<section><h2>${escapeHtml(group.title)}</h2><ul>${items}</ul></section>`;
@@ -371,7 +378,7 @@ function renderArchive(pages, files) {
     })
     .join("");
   const body = `<h1>Archive</h1>
-<p>Every page still published on Karaite Korner, plus sections that were taken offline and restored from the historical copies. Pages marked on the home outline as off-site still forward to their current external address.</p>
+<p>Every page still published on Karaite Korner, plus sections that were taken offline and restored from the historical copies. Links on the home page that leave this site are marked with an external-link icon.</p>
 ${html}`;
   return shell({
     title: "Archive — Karaite Korner",
