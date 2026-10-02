@@ -1,0 +1,427 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+<HEAD>
+
+<TITLE>The Karaite Korner - Survey Form</TITLE>
+
+<meta name="robots" content="index, follow">
+
+<script language="JavaScript" src="kk_info.js"></script>
+
+<script Language="JavaScript">
+<!--
+
+function formatComments()
+
+{
+
+if (document.forms[0].comments.value !='') 
+{
+document.forms[0].comments.value = '\n---------------------------------------------------------------------------\n' + document.forms[0].comments.value + '\n---------------------------------------------------------------------------';
+}
+return;
+
+}
+
+//Only tested on NS3+ and IE4+
+
+function formatName()
+
+{
+
+var first_space=" ";
+var second_space=" ";
+
+if (document.forms[0].First_Name.value=="") {first_space = "";} //get rid of excess spaces from the Subscriber info
+if (document.forms[0].Last_Name.value=="") {second_space = "";}
+
+formatted_name = first_space + document.forms[0].First_Name.value + second_space + document.forms[0].Last_Name.value;
+
+return;
+
+}
+
+function formatRecommendName(i)
+
+{
+
+var recommend_first_space = " ";
+var recommend_second_space = " ";
+recommend_name=""; //global variable!
+
+var recommend_first_name = eval("document.forms[0].Recommend" + the_recommendations[i] + "_First");
+var recommend_last_name = eval("document.forms[0].Recommend" + the_recommendations[i] + "_Last");
+
+if (recommend_first_name.value=="") {recommend_first_space = "";} //get rid of excess spaces from the Subscriber info
+if (recommend_last_name.value=="") {recommend_second_space = "";}
+
+recommend_name = 'Dear' + recommend_first_space + recommend_first_name.value + ', \n\n';
+
+if (recommend_first_name.value=="") {recommend_name = "";} 
+
+return;
+
+}
+
+function formatRecommendations()
+
+{
+
+the_recommendations = new Array("1", "2");
+var this_recommendation;
+var this_recommendation_e_mail;
+
+for (var i = 0; i < 2; i++)
+
+	{
+
+	this_recommendation = eval("document.forms[0].recommend_letter_" + the_recommendations[i]);
+	this_recommendation_e_mail = eval("document.forms[0].Recommend" + the_recommendations[i] + "_Email");
+
+	if (this_recommendation_e_mail.value != "") 
+		{
+		formatRecommendName(i);
+		if (formatted_name=="") {formatName();}
+		if (formatted_name=="") {formatted_name = " a friend"};
+		this_recommendation.value = this_recommendation_e_mail.value + '\n' + recommend_name + 'The Karaite Korner has been recommended to you by' + formatted_name + '.';
+		} 
+
+		else 	{this_recommendation.value = "No Recommendation";} //No Recommendation
+
+	}
+
+return true;
+
+}
+
+
+function formatInfo()
+
+{
+
+formatComments();
+
+var the_e_mail=document.forms[0].email.value;
+formatted_name=""; //global variable!
+
+if (document.Survey.Subscribe.checked == true) //Run this only if they asked to subscribe
+
+	{
+
+	if (the_e_mail.indexOf("<Your E-mail>")!=-1) //Remove <Your E-Mail>
+		{the_e_mail = the_e_mail.substring(the_e_mail.indexOf("<Your E-mail>") + 13, the_e_mail.length);}
+
+	if (the_e_mail.indexOf("@")==-1) //Make sure they gave a valid e-mail address
+		{alert('To recieve the Newsletter you must enter a valid e-mail address'); return false;}
+
+	formatName();
+
+	document.forms[0].email.value = the_e_mail;
+	document.forms[0].subscriber_info.value = the_e_mail + formatted_name;
+
+
+	formatRecommendations();
+
+	return true; //If they get this far submit the form
+
+	}	
+
+else //Run this when they didn't subscribe
+
+	{
+
+	document.forms[0].subscriber_info.value = "No Subscription"; //No Subscription
+
+	formatRecommendations();
+
+	return true;
+
+	} 
+
+}
+
+/*
+var the_browser = navigator.appName; 
+var the_version = parseInt(navigator.appVersion);
+
+if ((the_browser == "Netscape" && the_version >=3) || (the_browser == "Microsoft Internet Explorer" && the_version >= 4))
+
+{actions to do}
+
+else {return true;}
+*/
+
+//-->
+</script>
+
+</HEAD>
+
+<body bgcolor="#ffffff" Background="vmarble.jpg" TEXT="#000000" 
+LINK="#006633" VLINK="#003399" aLINK="#8000ff">
+<p><center><a href="index.shtml#outline"><img src="logosq.gif" alt="The Karaite Korner" border=0 width=298 height=144></a>
+<br><h1>Survey</h1></center></p>
+
+<script Language="JavaScript">
+<!--
+
+if ((document.cookie != '') && (document.cookie.indexOf("kk_subscribe=") != -1))
+	{
+document.write('<font size="+1">Welcome to the Subscriptions Page. To FINALIZE your subscription(s) please hit SEND at the bottom of the page.  All questions are optional, EXCEPT your e-mail address.  However we would appreciate you taking the time to complete the rest of the survey.</font>');
+	}
+
+//-->
+</script>
+<FORM METHOD=POST ACTION="http://www.karaite-korner.org/cgi-bin/send/kkformmail.cgi" name="Survey" onSubmit="return formatInfo();">
+
+<!--Subscription Information-->
+<INPUT TYPE="hidden" NAME="subscriber_info" VALUE="No JS, See Below">
+
+<!--Reccomendation Information-->
+<INPUT TYPE="hidden" NAME="recommend_letter_1" VALUE="No JS, See Below">
+<INPUT TYPE="hidden" NAME="recommend_letter_2" VALUE="No JS, See Below">
+
+<!--Name-->
+<Table border=0 cellspacing=0 cellpadding=0>
+<tr><td>First Name: <td><INPUT TYPE="TEXT" NAME="First_Name" SIZE=30>
+<tr><td>Last Name: <td><INPUT TYPE="TEXT" NAME="Last_Name" SIZE=30>
+<tr><td>Your E-mail Address: <td><INPUT TYPE="TEXT" NAME="email" SIZE=30>
+<tr><td><br>Your Website: <td><br><INPUT TYPE="TEXT" NAME="Their_URL" SIZE=30 value="http://">
+</tr></td></table>
+<p>
+
+<script Language="JavaScript">
+<!--
+
+if ((document.cookie.indexOf("kk_subscribe=")==-1) || (document.cookie == ''))
+{window.document.forms[0].First_Name.focus();} 
+
+//-->
+</script>
+
+Gender: <INPUT TYPE="radio" NAME="Gender" value="male">Male
+        <INPUT TYPE="radio" NAME="Gender" value="female">Female
+<p>
+Age: <INPUT TYPE="TEXT" NAME="Age" SIZE=4>
+<p>
+Occupation: <INPUT TYPE="TEXT" NAME="Occupation" SIZE=30>
+<p>
+<!--Location-->
+<Table border=0 cellspacing=0 cellpadding=0>
+<tr><td>City: <td><INPUT TYPE="TEXT" NAME="city" SIZE=30> 
+<tr><td>Country: <td><INPUT TYPE="TEXT" NAME="country" SIZE=30>
+
+</tr></td></table>
+<p>
+<!--Religion-->
+<Table border=0 cellspacing=0 cellpadding=0>
+<tr><td>Religion: <td><INPUT TYPE="TEXT" NAME="religion" SIZE=30>
+<tr><td>Denomination: <td><INPUT TYPE="TEXT" NAME="denomination" SIZE=30>
+</tr></td></table>
+
+<!--Subscriptions-->
+<p><center><hr width=75%></center>
+
+<!--
+<dl>
+<dt>
+<INPUT TYPE="checkbox" NAME="Subscribe">
+Subscribe ME to the Karaite Korner Newsletter including:
+<dd>* Monthly New Moon Report
+<dd>* Abib (Barley) Report
+<dd>* Site Update Notification
+<dd>* Torah Thoughts
+
+</dl>
+-->
+<p>
+
+<script Language="JavaScript"><!--
+
+if ((document.cookie != '') && (document.cookie.indexOf("kk_subscribe=") != -1))
+
+	{
+
+// split() is not supported in JavaScript 1.0
+
+//[kk_subscribe=]name@server[/end_subscribe]
+var the_sub=document.cookie;
+var step_a = the_sub.substring(the_sub.indexOf("kk_subscribe=") + 13, the_sub.indexOf("/end_subscribe"));
+
+document.Survey.email.value=unescape(step_a);
+document.Survey.Subscribe.checked=true;
+
+	}
+
+//-->
+</script>
+
+<p><center><hr width=75%></center>
+
+How did you hear about The Karaite Korner? <INPUT TYPE="TEXT" NAME="Heard_About" SIZE=30>
+
+<p>
+Search Engine: 
+
+<select name="Search_Engine">
+<option>---Choose One---
+<option>AltaVista
+<option>Google
+<option>AOL
+<option>Excite
+<option>Hotbot
+<option>Infoseek
+<option>Jewish Community Online
+<option>Looksmart
+<option>Lycos
+<option>Maven
+<option>Nestscape
+<option>Open Directory
+<option>SNAP
+<option>Walla
+<option>Web Crawler
+<option>Yahoo
+<option>Zipple
+<option>------------
+<option>Friend
+<option>Link from another Site
+
+</select>
+
+<!--
+
+<select name="Search_Engine">
+<option>Jewish Search Engines
+<option>Digital Genizah
+<option>HaReshima
+<option>Jewish 1000
+<option>Jewish Hotsites
+<option>Jewish Resource
+<option>Judaism and Jewish Resources
+<option>Lengthy List of Jewish Links
+<option>Link Launcher
+</select>
+
+-->
+
+Other: 
+<INPUT TYPE="TEXT" NAME="Other_Source" SIZE=15>
+
+<p>
+
+Search Words: 
+<INPUT TYPE="TEXT" NAME="Search_Words" SIZE=30>
+
+<center><hr width=75%></center><p>
+
+<b>Send us your questions, comments, suggestions, and impressions:</b><br>	
+<TEXTAREA NAME="comments" rows=8 cols=60 wrap="physical"></TEXTAREA>
+<p>
+<b>May we recommend The Karaite Korner to a friend?</b>
+<br>
+<center><Table border=0 cellspacing=0 cellpadding=0 width="100%">
+
+<tr>
+<td colspan=2 align=center>
+Recommendation 1<br>
+<td colspan=2 align=center>
+Recommendation 2<br>
+
+<tr>
+<td>
+First Name:<br>
+Last Name:<br>
+E-mail:<br>
+<td>
+<INPUT TYPE="TEXT" NAME="Recommend1_First" SIZE=20><br>
+<INPUT TYPE="TEXT" NAME="Recommend1_Last" SIZE=20><br>
+<INPUT TYPE="TEXT" NAME="Recommend1_Email" SIZE=20><br>
+
+<td>
+First Name:<br>
+Last Name:<br>
+E-mail:<br>
+<td>
+<INPUT TYPE="TEXT" NAME="Recommend2_First" SIZE=20><br>
+<INPUT TYPE="TEXT" NAME="Recommend2_Last" SIZE=20><br>
+<INPUT TYPE="TEXT" NAME="Recommend2_Email" SIZE=20><br>
+
+</tr></td></table></center>
+
+<!--Optional Hidden Fields-->
+<input type=hidden name="recipient" value="survey@karaite-korner.org">
+<input type=hidden name="redirect" value="http://www.karaite-korner.org/thanks.shtml">
+<input type=hidden name="subject" value="Karaite Korner Survey">
+<input type=hidden name="env_report" value="REMOTE_HOST,REMOTE_ADDR,REMOTE_USER,HTTP_USER_AGENT">
+<input type=hidden name="print_config" value="email">
+
+<!--Misc. Info-->
+<INPUT TYPE="hidden" NAME="browser_type" VALUE="No JS">
+<INPUT TYPE="hidden" NAME="subscription_box" VALUE="Not Used">
+<INPUT TYPE="hidden" NAME="last_page" VALUE="No JS">
+<INPUT TYPE="hidden" NAME="the_referrer" VALUE="No JS">
+
+<script Language="JavaScript"><!--
+
+//there is always a ref cookie
+
+document.forms[0].browser_type.value = 
+navigator.appName + " " + navigator.appVersion;
+
+if ((document.cookie!='') && (document.cookie.indexOf("kk_subscribe=")!=-1))
+{document.forms[0].subscription_box.value = "Used";}
+
+document.forms[0].last_page.value = 
+(document.referrer!='') ? document.referrer : 'N_A';
+
+var da_ref=document.cookie;
+document.forms[0].the_referrer.value = 
+da_ref.substring(da_ref.indexOf("kk_referrer=") + 12, da_ref.indexOf("/end_referrer"));
+
+//-->
+</script>
+
+<!--Begin Extreme Tracker-->
+<!--NOSEARCHSTART-->
+<script><!--
+an=navigator.appName;sr='http://x3.extreme-dm.com/';srw="na";srb="na";d=document;r=41;function pr(n) {
+d.write("<img src=\""+sr+"n\/?tag=karaite&p=http%3A%2F%2Fwww.karaite-korner.org%2Fsurvey.shtml&j=y&srw="+srw+"&srb="+srb+"&l="+escape(d.referrer)+"&rs="+r+"\" height=1 width=1>");}//-->
+</script><script language="javascript1.2"><!--
+s=screen;srw=s.width;an!="Netscape"?srb=s.colorDepth:srb=s.pixelDepth//-->
+</script><script><!--
+pr()//-->
+</script><noscript><img src=http://x3.extreme-dm.com/z/?tag=karaite&p=http%3A%2F%2Fwww.karaite-korner.org%2Fsurvey.shtml&j=n height=1 width=1></noscript>
+<!--NOSEARCHEND-->
+<!--End Extreme Tracker-->
+
+<p>
+Thank you for taking the time to complete this form.<br>
+<img src="mailgrab.gif" width=51 height=51><INPUT TYPE="SUBMIT" VALUE="SEND"> <INPUT TYPE="RESET" VALUE="CLEAR">
+
+</form>
+
+<P>
+<hr>
+<br>
+<center>
+<script language="JavaScript1.1" src="http://www.karaite-korner.org/copyright.js"></script>
+
+<!--Thanks Page Logo (preloading)-->
+<script Language="JavaScript">
+<!--
+if (document.images)
+{var an_image=new Image(); 
+an_image.src="logosqg.gif";} 
+//-->
+</script>
+
+</center>
+<br><br><br>
+
+<!--NOSEARCHEND-->
+
+<!--#include virtual="google.htm" -->
+
+</Body>
+</Html>

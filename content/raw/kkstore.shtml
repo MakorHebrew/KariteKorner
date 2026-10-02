@@ -1,0 +1,310 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+<HEAD>
+
+<meta name="robots" content="index, follow">
+
+<TITLE>Karaite Korner - Bookstore</TITLE>
+
+<script>
+<!--
+
+if (document.images)
+{var an_image=new Image(); 
+an_image.src="buyit.gif";} 
+
+function buy(buy_it) 
+{if (document.images)
+{buy_it.src='buyit.gif'; window.status='BUY THE BOOK!!!';}
+else {window.status='BUY THE BOOK!!!';}
+}
+
+function stack(stack_it) 
+{if (document.images)
+{stack_it.src='stack3.gif'; window.status='';}
+else {window.status='';}
+}
+
+//-->
+</script>
+<script language="JavaScript1.1" src="kk_info.js"></script>
+
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="kk_style.css">
+
+</HEAD>
+
+<BODY Bgcolor="#ffffff" TEXT="#000000"
+LINK="#0000ff" VLINK="#000099" aLINK="#cc0000">
+
+<p><Center><a href="index.shtml#outline"><img src="logobox.gif" alt="The Karaite Korner" width=307 height=151 border=0></a></center><p>
+
+<center><font size="+3"><b>Book Store</b></font>
+<br><br>
+<!--Link to Amazon.com Home Page-->
+<A HREF="http://www.amazon.com/exec/obidos/redirect-home/thekaraitekorner">
+<IMG SRC="135x50-1.gif" BORDER="0" ALT="In Association with Amazon.com" width=135 height=50></A></center>
+
+<br><br>
+<font size="+2"><center>Please do not use this store on the Sabbath<br>(Sunset Friday till Sunset Saturday)</center></font>
+
+<!--Begin Extreme Tracker-->
+<!--NOSEARCHSTART-->
+<script><!--
+an=navigator.appName;sr='http://x3.extreme-dm.com/';srw="na";srb="na";d=document;r=41;function pr(n) {
+d.write("<img src=\""+sr+"n\/?tag=karaite&p=http://www.karaite-korner.org/kkstore.shtml&j=y&srw="+srw+"&srb="+srb+"&l="+escape(d.referrer)+"&rs="+r+"\" height=1 width=1>");}//-->
+</script><script language="javascript1.2"><!--
+s=screen;srw=s.width;an!="Netscape"?srb=s.colorDepth:srb=s.pixelDepth//-->
+</script><script><!--
+pr()//-->
+</script><noscript><img src=http://x3.extreme-dm.com/z/?tag=karaite&p=http://www.karaite-korner.org/kkstore.shtml&j=n height=1 width=1></noscript>
+<!--NOSEARCHEND-->
+<!--End Extreme Tracker-->
+
+<p><!--Books For Sale-->
+<dl>
+<hr>
+<dt><font size="+2" color=red>Must Buys</font>
+
+<p><!--Karaite Anthology-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/0300039298/thekaraitekorner" 
+onMouseOver="buy(document.Anthology); return true" onMouseOut="stack(document.Anthology); return true">
+<img src="stack3.gif" name="Anthology" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/0300039298/thekaraitekorner" 
+onMouseOver="buy(document.Anthology); return true" onMouseOut="stack(document.Anthology); return true">Karaite Anthology : Excerpts from the Early Literature</a></b>
+<dd>Leon Nemoy (Editor) / Paperback / Published 1987
+<dd>Amazon Price: $22.00
+<dd>Ships in 2-3 days!
+<dd><a href="salmon_ben_yeruham.shtml#canto1"><i>Read an excerpt from this book</i></a>
+
+
+<p><!--Qirqisani on Jewish Sects...-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/3820480617/thekaraitekorner" 
+onMouseOver="buy(document.Qirqisani); return true" onMouseOut="stack(document.Qirqisani); return true">
+<img src="stack3.gif" name="Qirqisani" align=middle border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/3820480617/thekaraitekorner" 
+onMouseOver="buy(document.Qirqisani); return true" onMouseOut="stack(document.Qirqisani); return true">Ya'Qub Al-Qirqisani on Jewish Sects and Christianity</a></b>
+<dd>Bruno Chiesa and Wilfrid Lockwood
+<dd>Peter Lang Publishing 1984
+<dd>Amazon Price: $36.15
+
+<p><!--Karaite Seperatism-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/081432732X/thekaraitekorner" 
+onMouseOver="buy(document.Seperatism); return true" onMouseOut="stack(document.Seperatism); return true">
+<img src="stack3.gif" name="Seperatism" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/081432732X/thekaraitekorner" 
+onMouseOver="buy(document.Seperatism); return true" onMouseOut="stack(document.Seperatism); return true">Karaite Separatism in Nineteenth-Century Russia</a></b>
+<dd> Joseph Solomon Lutski, Miller Philip E. / Hardcover / Published 1993
+<dd>Amazon Price: $49.95 <i>(Special Order)</i> 
+<dd><font size="+1">Superbly Written!!!  A definite must buy second only to Nemoy's Karaite Anthology.</font>
+
+<p><!--Karaite Studies-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/087203027X/thekaraitekorner" 
+onMouseOver="buy(document.Karaite_Studies); return true" onMouseOut="stack(document.Karaite_Studies); return true">
+<img src="stack3.gif" name="Karaite_Studies" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/087203027X/thekaraitekorner"
+onMouseOver="buy(document.Karaite_Studies); return true" onMouseOut="stack(document.Karaite_Studies); return true">Karaite Studies</a></b>
+<dd> Philip Birnbaum
+<dd><font size="+1">Very important book but its out of print and may not be available.</font>
+
+<p><!--Karaites in Byzantium-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/0404515975/thekaraitekorner" 
+onMouseOver="buy(document.Byzantium); return true" onMouseOut="stack(document.Byzantium); return true">
+<img src="stack3.gif" name="Byzantium" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/0404515975/thekaraitekorner"
+onMouseOver="buy(document.Byzantium); return true" onMouseOut="stack(document.Byzantium); return true">Karaites in Byzantium</a></b>
+<dd> Zvi Ankori / Hardcover / Published 1971
+<dd>Amazon Price: $49.50 <i>(Special Order)</i>
+<dd><font size="+1">May Be out-of-print.</font>
+
+<p><!--Faith Strengthened-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/087068132X/thekaraitekorner" 
+onMouseOver="buy(document.Faith_Strengthened); return true" onMouseOut="stack(document.Faith_Strengthened); return true">
+<img src="stack3.gif" name="Faith_Strengthened" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/087068132X/thekaraitekorner"
+onMouseOver="buy(document.Faith_Strengthened); return true" onMouseOut="stack(document.Faith_Strengthened); return true">Faith Strengthened</a></b>
+<dd> Isaac Troki
+<dd><font size="+1">May Be out-of-print.  Powerful rejection of Christianity.</font>
+
+<!--Other-->
+<dt><hr>
+<dt><font size="+2" color=red>Other Important Books</font>
+
+<p><!--The Karaite Encyclopedia-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/3631477422/thekaraitekorner" 
+onMouseOver="buy(document.Karaite_Encyclopedia); return true" onMouseOut="stack(document.Karaite_Encyclopedia); return true">
+<img src="stack3.gif" name="Karaite_Encyclopedia" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/3631477422/thekaraitekorner"
+onMouseOver="buy(document.Karaite_Encyclopedia); return true" onMouseOut="stack(document.Karaite_Encyclopedia); return true">The Karaite Encyclopedia</a></b>
+<dd> Nathan Schur / Paperback / Published 1995
+<dd>Amazon price: $49.95
+<dd>Usually ships in 24 hours
+
+<p><!--History of the Karaites-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/3631444354/thekaraitekorner" 
+onMouseOver="buy(document.History_of_the_Karaites); return true" onMouseOut="stack(document.History_of_the_Karaites); return true">
+<img src="stack3.gif" name="History_of_the_Karaites" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/3631444354/thekaraitekorner"
+onMouseOver="buy(document.History_of_the_Karaites); return true" onMouseOut="stack(document.History_of_the_Karaites); return true">History of the Karaites</a></b>
+<dd> Nathan Schur / Paperback / Published 1992
+<dd>Amazon Price: $39.80 <i>(Special Order)</i>
+
+<p><!--Karaite Jews of Egypt-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/0962005207/thekaraitekorner" 
+onMouseOver="buy(document.Karaite_Jews_of_Egypt); return true" onMouseOut="stack(document.Karaite_Jews_of_Egypt); return true">
+<img src="stack3.gif" name="Karaite_Jews_of_Egypt" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/0962005207/thekaraitekorner"
+onMouseOver="buy(document.Karaite_Jews_of_Egypt); return true" onMouseOut="stack(document.Karaite_Jews_of_Egypt); return true"	>Karaite Jews of Egypt (1882-1986)</a></b>
+<dd> Mourad El-Kodsi / Published 1987 
+<dd><font size="+1">Primary Work on Late History of Egyptian Karaites</font>
+
+<!--Technical Books-->
+<dt><hr>
+<dt><font size="+2" color=red>More Books on Karaism</font>
+
+<p><!--Karaites and Dejudaization-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/9122014128/thekaraitekorner" 
+onMouseOver="buy(document.Dejudaization); return true" onMouseOut="stack(document.Dejudaization); return true">
+<img src="stack3.gif" name="Dejudaization" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/9122014128/thekaraitekorner"
+onMouseOver="buy(document.Dejudaization); return true" onMouseOut="stack(document.Dejudaization); return true">Karaites and Dejudaization</a></b>
+<dd> Roman Freund / Paperback / Published 1991
+<dd>Amazon Price: $40.00 <i>(Special Order)</i>
+
+<p><!--Karaite Marriage Documents-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/9004108866/thekaraitekorner" 
+onMouseOver="buy(document.Marriage_Documents); return true" onMouseOut="stack(document.Marriage_Documents); return true">
+<img src="stack3.gif" name="Marriage_Documents" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/9004108866/thekaraitekorner"
+onMouseOver="buy(document.Marriage_Documents); return true" onMouseOut="stack(document.Marriage_Documents); return true">Karaite Marriage Documents from the Cairo Geniza</a></b>
+<dd> Judith Olszowy-Schlanger / Hardcover / Published 1997
+<dd>Amazon Price: $200.00 <i>(Special Order)</i>
+<dd><a href="http://www.amazon.com/exec/obidos/ASIN/9004108866/thekaraitekorner"
+onMouseOver="buy(document.Marriage_Documents); return true" onMouseOut="stack(document.Marriage_Documents); return true"><i>Read more about this title...</i></a>
+
+<p><!--Karaite Tradition of Arabic...-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/9004102671/thekaraitekorner" 
+onMouseOver="buy(document.Tradition_of_Arabic); return true" onMouseOut="stack(document.Tradition_of_Arabic); return true">
+<img src="stack3.gif" name="Tradition_of_Arabic" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/9004102671/thekaraitekorner"
+onMouseOver="buy(document.Tradition_of_Arabic); return true" onMouseOut="stack(document.Tradition_of_Arabic); return true">The Karaite Tradition of Arabic Bible Translation</a></b>
+<dd> Meira Polliack / Hardcover / Published 1997
+<dd>Amazon Price: $124.00 <i>(Special Order)</i>
+<dd><a href="http://www.amazon.com/exec/obidos/ASIN/9004102671/thekaraitekorner"
+onMouseOver="buy(document.Tradition_of_Arabic); return true" onMouseOut="stack(document.Tradition_of_Arabic); return true"><i>Read more about this title...</i></a>
+<dd><font size="+1">Only for Arabic Experts</font>
+
+<p><!--Rabbanite and Karaite Poetry...-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/0878202102/thekaraitekorner" 
+onMouseOver="buy(document.Rabbanite_and_Karaite_Poetry); return true" onMouseOut="stack(Rabbanite_and_Karaite_Poetry); return true">
+<img src="stack3.gif" name="Rabbanite_and_Karaite_Poetry" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/0878202102/thekaraitekorner"
+onMouseOver="buy(document.Rabbanite_and_Karaite_Poetry); return true" onMouseOut="stack(Rabbanite_and_Karaite_Poetry); return true">Rabbanite and Karaite Liturgical Poetry in South-Eastern Europe</a></b>
+<dd>Leon J. Weingerger / Hardcover / Published 1992
+<dd>Amazon Price: $40.00 <i>(Special Order)</i>
+
+<p><!--Karaite Bible Manuscripts...-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/0521392276/thekaraitekorner" 
+onMouseOver="buy(document.Karaite_Bible_Manuscripts); return true" onMouseOut="stack(document.Karaite_Bible_Manuscripts); return true">
+<img src="stack3.gif" name="Karaite_Bible_Manuscripts" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/0521392276/thekaraitekorner"
+onMouseOver="buy(document.Karaite_Bible_Manuscripts); return true" onMouseOut="stack(document.Karaite_Bible_Manuscripts); return true">Karaite Bible Manuscripts from the Cairo Genizah</a></b>
+<dd> Geoffrey Khan / Published 1990
+<dd><font size="+1">Only for Arabic Experts</font>
+
+<p><!--Deux Commentaires Karaites Sur L'Ecclesiaste-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/9004026584/thekaraitekorner" 
+onMouseOver="buy(document.Ecclesiaste); return true" onMouseOut="stack(document.Ecclesiaste); return true">
+<img src="stack3.gif" name="Ecclesiaste" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/9004026584/thekaraitekorner"
+onMouseOver="buy(document.Ecclesiaste); return true" onMouseOut="stack(document.Ecclesiaste); return true">Deux Commentaires Karaites Sur L'Ecclesiaste</a></b>
+<dd> G. Vajda / Hardcover / Published 1997
+<dd>Amazon Price: $103.50 <i>(Special Order)</i>
+<dd><font size="+1">In French</font>
+
+<p><!--Documents of Jewish Sectaries-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/0870680161/thekaraitekorner" 
+onMouseOver="buy(document.Documents_of_Jewish_Sectaries); return true" onMouseOut="stack(document.Documents_of_Jewish_Sectaries); return true">
+<img src="stack3.gif" name="Documents_of_Jewish_Sectaries" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/0870680161/thekaraitekorner"
+onMouseOver="buy(document.Documents_of_Jewish_Sectaries); return true" onMouseOut="stack(document.Documents_of_Jewish_Sectaries); return true">Fragments of the Book of the Commandments by Anan</a>
+<dd>(Part II of <font size="+1">Documents of Jewish Sectaries</font>)</b>, edited by 
+Solomon Schechter,  Ktav Publishing House 1970
+<dd><font size="+1">In Aramaic</font><p>
+
+<dt><hr>
+<dt><font size="+2" color=red>Bible Aides</font>
+
+<p><!--BDB-->
+<dt><a href="http://www.amazon.com/exec/obidos/ASIN/1565632060/thekaraitekorner" 
+onMouseOver="buy(document.BDB); return true" onMouseOut="stack(document.BDB); return true">
+<img src="stack3.gif" name="BDB" align="middle" border=0 width=37 height=40></a>&nbsp;
+<b><a href="http://www.amazon.com/exec/obidos/ASIN/1565632060/thekaraitekorner"
+onMouseOver="buy(document.BDB); return true" onMouseOut="stack(document.BDB); return true">The Brown-Driver-Briggs Hebrew and English Lexicon</A></b>
+<dd><b>-With an Appendix Containing the Biblical Aramaic
+<dd>-Coded With the Numbering System from Strong's Concordance</b>
+
+</dl>
+<p><hr><br>
+
+<!--Suggest-a-Book-->
+<FORM METHOD=POST ACTION="http://www.geocities.com/cgi-bin/homestead/mail.pl?kk_form">
+<TABLE BORDER="0" bgcolor="#ffffcc" CELLPADDING="2" cellspacing="0" align="left">
+
+<tr><td colspan=2 align=center><font size="+1"><b>Suggest A Book For This Page</b></font>
+<tr><td>Title:<td><INPUT TYPE="TEXT" NAME="Title" SIZE=20 VALUE=""><br>
+<tr><td>Author:<td><INPUT TYPE="TEXT" NAME="Author" SIZE=20 VALUE=""><br>
+<tr><td>&nbsp;&nbsp;&nbsp;<td><INPUT TYPE="SUBMIT" VALUE="SEND"
+onClick="alert('Thank you for suggesting a book.')"><INPUT TYPE="RESET" VALUE="CLEAR">
+
+</tr></td></table>
+<INPUT TYPE="hidden" NAME="subject" VALUE="Suggest-A-Book">
+<INPUT TYPE="hidden" NAME="next-url" VALUE="/Athens/Forum/kkthank3.html">
+</form>
+<a name="suggest"></a>
+
+<!--Amazon Search Engine-->
+<center><FORM METHOD="get" ACTION="http://www.amazon.com/exec/obidos/external-search">
+<TABLE BORDER="1" CELLPADDING="0" cellspacing="0" align="right">
+<tr><td align=center colspan="2" bgcolor="#ffffff"><b>AMAZON BOOK SEARCH</b>
+<TR>
+<TD bgcolor="#ffffff">
+<INPUT TYPE="radio" NAME="mode" VALUE="books" CHECKED>Books
+<INPUT TYPE="radio" NAME="mode" VALUE="music">Music
+</TD>
+<TD ROWSPAN="2" VALIGN="top" ALIGN="center" bgcolor="#ffffff" width="55%">
+Enter keywords...
+<center><INPUT TYPE="text" NAME="keyword" SIZE=20 VALUE="">
+<INPUT TYPE=hidden NAME=tag VALUE=thekaraitekorner></CENTER>
+<INPUT TYPE="submit" BORDER=0 VALUE="Search" NAME="Search">
+<BR>
+<BR>
+</TD>
+</TR>
+<TR><TD VALIGN="top" ALIGN="center" BGCOLOR="#000000"><A HREF="http://www.amazon.com/exec/obidos/redirect-home/thekaraitekorner"><IMG SRC="amznlogo.gif" BORDER="0" VSPACE="0" ALT="The Karaite Korner in Association with Amazon.com" width=125 height=60></A></TD></TR>
+</TABLE>
+</FORM></center>
+
+<br clear="all"><br>
+
+<!--*****Bottom Bar*****-->
+
+<!--NOSEARCHSTART--> 
+
+<script language="JavaScript" src="bottom_menu.js"></script><NOSCRIPT><center><a href="index.shtml#outline"><img src="site_outline.gif" width=139 height=43 border=0 alt="Site_Outline"></a><br><br></NOSCRIPT>
+
+<font size="-1">Copyright &copy; 1998-2000 by Nehemia Gordon and Devorah Gordon, All Rights Reserved.</font><br>
+Last Updated 
+
+Feb 26, 2000
+
+<!--Counter-->
+
+</center>
+<br><br><br>
+
+<!--NOSEARCHEND-->
+
+</Body>
+</Html>
