@@ -1,0 +1,163 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+<HEAD>
+
+<TITLE>Karaite Korner - Karaite Links</TITLE>
+
+<meta name="robots" content="index, follow">
+
+<script language="JavaScript1.1" src="kk_info.js"></script>
+
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="kk_style.css">
+
+</HEAD>
+
+<BODY Bgcolor="#ffffff" TEXT="#000000"
+LINK="#0000ff" VLINK="#000099"  aLINK="#cc0000">
+
+<p><Center><a href="index.shtml#outline"><img src="logobox.gif" alt="The Karaite Korner" width=307 height=151 border=0></a></center>
+<p><center><font size="+3"><b>Karaite Links</b></font></center><p>
+
+<!--Begin Extreme Tracker-->
+<!--NOSEARCHSTART-->
+<script><!--
+an=navigator.appName;sr='http://x3.extreme-dm.com/';srw="na";srb="na";d=document;r=41;function pr(n) {
+d.write("<img src=\""+sr+"n\/?tag=karaite&p=http%3A%2F%2Fwww.karaite-korner.org%2Flinks.shtml&j=y&srw="+srw+"&srb="+srb+"&l="+escape(d.referrer)+"&rs="+r+"\" height=1 width=1>");}//-->
+</script><script language="javascript1.2"><!--
+s=screen;srw=s.width;an!="Netscape"?srb=s.colorDepth:srb=s.pixelDepth//-->
+</script><script><!--
+pr()//-->
+</script><noscript><img src=http://x3.extreme-dm.com/z/?tag=karaite&p=http%3A%2F%2Fwww.karaite-korner.org%2Flinks.shtml&j=n height=1 width=1></noscript>
+<!--NOSEARCHEND-->
+<!--End Extreme Tracker-->
+
+<table cellspacing=0 cellpadding=5 border=0> 
+
+<tr>
+
+<!--*****Navigation bar*****-->
+
+<!--NOSEARCHSTART--> 
+
+<td valign=top bgcolor="#cccccc" nowrap>
+
+<script language="JavaScript1.1" src="side_menu.js"></script><NOSCRIPT><center><br><br><a href="index.shtml#outline"><img src="site_outline.gif" width=139 height=43 border=0 alt="Site_Outline"></a><P></NOSCRIPT>
+
+<!--begin SUBSCRIPTION BOX-->
+<script Language="JavaScript">
+<!--
+
+function setSubscribe()
+	{
+document.cookie="kk_subscribe=" + escape(document.the_sub.e_mail.value) 
++ "/end_subscribe";
+
+window.location.href='survey.shtml';
+	}
+//-->
+</script>
+
+<FORM METHOD=POST ACTION="http://www.geocities.com/cgi-bin/homestead/mail.pl?kk_form" 
+name="the_sub" onSubmit="setSubscribe(); return false;">
+<center><TABLE BORDER="1" CELLPADDING="2" cellspacing="0" bgcolor="black">
+<tr><td align=left><font size="-1" color="#ffffcc">
+<center><img src="subscrip.gif" width=150 height=138 alt="Karaite_Korner_Newsletter"></center>
+<center><INPUT TYPE="TEXT" NAME="e_mail" SIZE=15 VALUE="&lt;Your E-mail&gt;">
+</center>
+<center><input type="submit" value="Subscribe"></center>
+<INPUT TYPE="hidden" NAME="subject" VALUE="Subscriptions">
+<INPUT TYPE="hidden" NAME="next-url" VALUE="/Athens/Bridge/3026/kkthank2.html">
+</font></td></tr></table></center>
+</form>
+<!--end SUBSCRIPTION BOX-->
+
+<!-- Begin PicoSearch Query Box -->
+<p><FORM METHOD="POST" ACTION="http://www.picosearch.com/cgi-bin/ts.pl"> <INPUT TYPE="HIDDEN" NAME="index" VALUE="41536"> <center><TABLE BGCOLOR="white" CELLSPACING=0 CELLPADDING=2 BORDER=1><TR><TD><center>Search The<br>Karaite Korner<br><font size="-1"><INPUT TYPE="TEXT" NAME="query" VALUE="" SIZE="18"><br><A HREF="http://www.picosearch.com/" TARGET="_top"><IMG BORDER=0 SRC="picosmall.gif" ALT="PicoSearch" width=62 height=25></A> <INPUT TYPE="SUBMIT" VALUE="Search"></font></center></TD></TR></TABLE></center></FORM> 
+<!-- End PicoSearch Query Box --> 
+
+<center><A HREF="http://recommend-it.com/l.z.e?s=353372">
+<IMG SRC="lilbut.gif" BORDER=0 width=141 height=42 alt="Recommend It"></A></center>
+
+</td>
+
+<!--NOSEARCHEND--> 
+
+<!--*****Page Content*****-->
+
+<td valign=top>
+
+<hr width="100%">
+<font size="+1">
+<!--Pages maintained by the Karaite Korner:-->
+
+<dl>
+
+<!--<p><dt><img src="bullet10.gif" width=16 height=16 border=0><a href="http://www.karaism.com">Karaism.com</a> by Yoseif Yaron <img src="new12a.gif">
+
+<p><dd>Read the writings of ancient Karaite Halachic works, contemporary Karaite interpretation, and test your knowledge of Karaism and the Tanach.-->
+
+<p><dt><img src="bullet10.gif" width=16 height=16 border=0><a href="light-of-israel/index.shtml">Light of Israel</a> by Mordecai Alfandari
+
+<p><dd>Learn about the alternative to Rabbanite Judaism and Pagan Christianity, why Jews reject Jesus and the New Testament, how we can be atoned for sins in a period without sacrifices, and much more.  
+
+<p><dt><img src="bullet10.gif" width=16 height=16 border=0><a href="rekhavi/passover.shtml">Passover</a> by Meir Rekhavi
+
+<p><dd>Learn about Israel's <i><b>true</b></i> independence day.
+
+<p><dt><img src="bullet10.gif" width=16 height=16 border=0><a href="rekhavi/phylacteries.shtml">Phylacteries</a> by Meir Rekhavi
+
+<p><dd>Read more on why Karaites do not wear Tefillin (Phylacteries).
+
+<p><dt><img src="bullet10.gif" width=16 height=16 border=0><a href="http://www.geocities.com/SoHo/Atrium/4075/karaite_calendar.html">Karaite Calendar</a> by Magdi Shamuel
+
+<p><dd>Read about how Karaites predict New Moons from a world class expert in New Moon visibility. 
+
+</dl>
+
+</font>
+
+<hr>
+<p><b><a name="new_moon_links">New Moon links:</a></b>
+<ul>
+<p><li><a href="http://www.geocities.com/royh_il/">Israeli New Moon Society</a>
+<p><li><a href="http://www.saao.ac.za/sky/vishome.html">South African Astronomical Observatory</a>
+<p><li><a href="http://www.starlight.demon.co.uk/mooncalc">Moon Calculator 5.1</a> <a href="http://www.ummah.net/ildl/mooncalc.html">[mirror site]</a>
+<p><li><a href="http://facstaff.uww.edu/mccreadd/index.html">"Moon Illusion" Theory</a>
+</ul>
+
+<p><b>Miscellaneous:</b>
+<ul><p><li><a href="http://www.truthorfables.com/Day_of_Atonement_of_the_Karaite.htm">Karaite Date of Yom Kippur 1844</a>
+
+</ul>
+
+
+</td>
+</tr>
+
+</table>
+
+<!--*****Bottom Bar*****-->
+
+<!--NOSEARCHSTART--> 
+
+<script language="JavaScript" src="bottom_menu.js"></script><NOSCRIPT><center><a href="index.shtml#outline"><img src="site_outline.gif" width=139 height=43 border=0 alt="Site_Outline"></a><br><br></NOSCRIPT>
+
+<font size="-1">Copyright &copy; 1998-2000 by Nehemia Gordon and Devorah Gordon, All Rights Reserved.</font><br>
+Last Updated 
+
+Apr 29, 2000
+
+<!--Counter-->
+
+
+</center>
+<br><br><br>
+
+<!--NOSEARCHEND-->
+
+</Body>
+</Html>
+
+

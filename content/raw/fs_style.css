@@ -1,0 +1,26 @@
+A:hover {
+	color: Red;
+}
+
+body {
+	margin-left: 24pt;
+	margin-right : 24pt;
+	text-align : justify;
+	font-size : 16pt;
+}
+
+h1 {
+	text-align : center;
+	font-size : 24pt;
+}
+
+h2 {
+	text-align : center;
+	font-size : 20pt;
+}
+
+h3 {
+	text-align : left;
+	font-size : 16pt;
+	text-decoration: underline;
+}

@@ -1,0 +1,51 @@
+{
+  "intro": "Karaism is the original form of Judaism as prescribed by God in the Torah. Karaite Judaism rejects later additions to the Tanach (Jewish Bible) such as the Rabbinic Oral Law and places the ultimate responsibility of interpreting the Bible on each individual. Karaism does not reject Biblical interpretation but rather holds every interpretation up to the same objective scrutiny regardless of its source.",
+  "groups": [
+    {
+      "title": "What is Karaite Judaism",
+      "links": [
+        ["main.shtml", "What is Karaite Judaism"],
+        ["declaration_of_faith.shtml", "Karaite Declaration of Faith"],
+        ["karaite_faq.shtml", "Karaite FAQ"],
+        ["fact_sheet.shtml", "Karaite Fact Sheet"],
+        ["history.shtml", "History of Karaism"],
+        ["salmon_ben_yeruham.shtml", "Karaism vs. Rabbanism"],
+        ["holocaust.htm", "Karaites in the Holocaust?"]
+      ]
+    },
+    {
+      "title": "Articles",
+      "links": [
+        ["bible_faq.shtml", "Bible FAQ"],
+        ["tzitzit.shtml", "Tzitzit (Fringes)"],
+        ["tefillin.shtml", "Tefillin (Phylacteries)"],
+        ["shaving.shtml", "Is Shaving Forbidden?"],
+        ["end_of_days.shtml", "When is the End of Days?"],
+        ["glossary.shtml", "Glossary of Terms"]
+      ]
+    },
+    {
+      "title": "Calendar",
+      "links": [
+        ["new_moon.shtml", "New Moon in the Bible"],
+        ["kknmr.shtml", "Monthly New Moon Sightings"],
+        ["abib.shtml", "Abib (Barley)"],
+        ["abib_faq.shtml", "Abib FAQ"]
+      ]
+    },
+    {
+      "title": "Holidays",
+      "links": [
+        ["holidays.shtml", "Holidays"],
+        ["holiday_dates.shtml", "Holiday Dates"],
+        ["passover.shtml", "Hag HaMatzot (Passover)"],
+        ["haggadah.shtml", "Passover Haggadah"],
+        ["omer.shtml", "Counting the Omer"],
+        ["shavuot.shtml", "Shavuot (Feast of Weeks / Pentecost)"],
+        ["yom_teruah.shtml", "Yom Teruah (Rosh Hashanah)"],
+        ["yom_kippur.shtml", "Yom Kippur"],
+        ["sukkot.shtml", "Sukkot and Shemini Atzeret"]
+      ]
+    }
+  ]
+}

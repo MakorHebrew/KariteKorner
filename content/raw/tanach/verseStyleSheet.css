@@ -1,0 +1,11 @@
+.romanVerseNumber {
+	display:none;
+	font-size: 12pt;
+	color : Gray;
+}
+
+.hebrewVerseNumber {
+	display:inline;
+	color : Gray;
+}
+

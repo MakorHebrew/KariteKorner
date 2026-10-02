@@ -1,0 +1,233 @@
+:root {
+  --bg: #f6f3ec;
+  --paper: #fffdf8;
+  --ink: #1d1a16;
+  --muted: #5c564c;
+  --line: #e3dccf;
+  --link: #1a3f72;
+  --link-visited: #4a2f68;
+  --accent: #7a1f1f;
+  --header: #fffdf8;
+  --shadow: 0 1px 0 rgba(29, 26, 22, 0.06);
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+a { color: var(--link); }
+a:visited { color: var(--link-visited); }
+a:hover { text-decoration-thickness: 2px; }
+
+img { border: 0; }
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  background: var(--ink);
+  color: white;
+  padding: 0.5rem 0.8rem;
+  z-index: 5;
+}
+
+.skip-link:focus { top: 0.5rem; color: white; }
+
+.site-header {
+  background: var(--header);
+  border-bottom: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.25rem 0.75rem;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.brand img {
+  width: min(307px, 78vw);
+  height: auto;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem 0.9rem;
+  margin: 0.8rem 0 0.4rem;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 0.98rem;
+}
+
+.site-nav a {
+  color: var(--ink);
+  text-decoration: none;
+  padding: 0.2rem 0.15rem;
+  border-bottom: 2px solid transparent;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.85rem;
+}
+
+.search-form input {
+  width: min(28rem, 100%);
+  font: inherit;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 1rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+}
+
+main {
+  width: min(46rem, calc(100% - 2rem));
+  margin: 1.5rem auto 3rem;
+  background: var(--paper);
+  padding: 1.5rem 1.35rem 2rem;
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 30px rgba(60, 40, 10, 0.04);
+}
+
+main.wide { width: min(70rem, calc(100% - 2rem)); }
+
+main :is(h1, h2, h3) {
+  line-height: 1.25;
+  font-weight: 650;
+}
+
+main h1 { font-size: clamp(1.7rem, 3vw, 2.2rem); margin-top: 0; }
+
+.lede {
+  font-size: 1.2rem;
+}
+
+.outline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.outline section {
+  background: #faf7f1;
+  border: 1px solid var(--line);
+  padding: 0.9rem 1rem 1rem;
+}
+
+.outline h2 {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 0 0.6rem;
+  color: var(--accent);
+}
+
+.outline ul { margin: 0; padding-left: 1.1rem; }
+.outline li { margin: 0.28rem 0; }
+
+.offsite {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.archive-group { margin: 1.6rem 0 2rem; }
+.archive-group h2 { font-size: 1.35rem; }
+.archive-group ul { columns: 2; padding-left: 1.1rem; margin: 0.4rem 0 0; }
+.archive-group li { break-inside: avoid; margin: 0.2rem 0; }
+
+.retired-form {
+  border: 1px solid var(--line);
+  background: #faf7f1;
+  padding: 0.7rem 0.9rem;
+  color: var(--muted);
+}
+
+.site-footer {
+  text-align: center;
+  color: var(--muted);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 0.9rem;
+  padding: 0 1rem 2.5rem;
+}
+
+.site-footer a { color: var(--muted); }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+main img,
+main video,
+main audio,
+main iframe,
+main embed,
+main object {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  overflow-x: auto;
+}
+
+main table {
+  border-collapse: collapse;
+}
+
+main td,
+main th { vertical-align: top; }
+
+main center { display: block; text-align: center; }
+
+main font[size="+1"] { font-size: 1.15rem; }
+main font[size="+2"] { font-size: 1.35rem; }
+main font[size="+3"] { font-size: 1.65rem; }
+main font[size="+4"] { font-size: 1.9rem; }
+main font[size="-1"] { font-size: 0.92rem; }
+main font[size="-2"] { font-size: 0.8rem; }
+
+main pre,
+main blockquote { overflow-x: auto; }
+
+.pagefind-ui { --pagefind-ui-scale: 0.95; }
+
+@media (max-width: 640px) {
+  body { font-size: 1.05rem; }
+  main { width: auto; margin: 0; border: 0; padding: 1.1rem 1rem 2rem; }
+  .archive-group ul { columns: 1; }
+  .site-nav { gap: 0.4rem 0.7rem; }
+}

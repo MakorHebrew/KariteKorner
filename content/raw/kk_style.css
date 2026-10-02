@@ -1,0 +1,38 @@
+A {
+	text-decoration : underline;
+}
+
+.GlowFilter {filter : Glow(Color="#6699CC",Strength="5")}
+.GrayFilter {filter : Gray}
+.InvertFilter {filter : Invert }
+.MaskFilter {filter : Mask (Color="#FFFFE0")}
+.ShadowFilter {filter:Shadow (Color="#6699CC", Direction="135")}
+.WaveFilter {filter: wave(Add="0", Phase="4", Freq="5", LightStrength="5", Strength="2")}
+.XrayFilter {filter : Xray }
+.erase {filter : none;}
+
+A:hover {color:"red";}
+
+body {
+	margin-left: 24pt;
+	margin-right : 24pt;
+	text-align : justify;
+	font-size : 16pt;
+}
+
+h1 {
+	text-align : center;
+	font-size : 24pt;
+}
+
+h2 {
+	text-align : center;
+	font-size : 20pt;
+}
+
+h3 {
+	text-align : left;
+	font-size : 16pt;
+	text-decoration: underline;
+}
+

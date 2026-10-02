@@ -1,0 +1,23 @@
+<html>
+
+<HEAD>
+
+<TITLE>The Karaite Korner - Free e-Newsletter Subscription</TITLE>
+
+<meta name="robots" content="index, follow">
+
+<script language="JavaScript" src="kk_info.js"></script>
+
+</HEAD>
+
+<body bgcolor="#ffffff" Background="vmarble.jpg" TEXT="#000000" 
+LINK="#006633" VLINK="#003399" aLINK="#8000ff">
+<p><center><a href="index.shtml#outline"><img src="logosq.gif" alt="The Karaite Korner" border=0 width=298 height=144></a>
+<br><h1>Free e-Newsletter Subscription</h1></center></p>
+
+<script language="JavaScript1.1" src="subscription_box.js"></script>
+
+<!--#include virtual="google.htm" -->
+
+</Body>
+</Html>

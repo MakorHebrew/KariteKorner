@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Thank you.</title>
+</head>
+
+<body lang=EN-US background="papyrus.jpg">
+
+<p><Center><a href="index.shtml#outline"><img src="logobox.gif" alt="The Karaite Korner" width=307 height=151 border=0></a></center>
+
+<br clear="all">
+
+<div align="center"><h1>Thank you for supporting the Karaite Korner!</h1></div>
+
+<!--#include virtual="google.htm" -->
+
+</body>
+</html>

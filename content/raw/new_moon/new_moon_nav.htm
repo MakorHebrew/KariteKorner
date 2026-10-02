@@ -1,0 +1,40 @@
+<p><a href="../index.shtml#outline" target="_blank"><img src="../kklogo.gif" alt="The Karaite Korner" border=0></a></p>
+
+
+<script language="JavaScript" src="../new_moon_menu.js"></script>
+
+<!--begin SUBSCRIPTION BOX-->
+<script Language="JavaScript">
+<!--
+
+function setSubscribe()
+	{
+document.cookie="kk_subscribe=" + escape(document.the_sub.e_mail.value) 
++ "/end_subscribe";
+
+window.location.href='../survey.shtml';
+	}
+//-->
+</script>
+
+<FORM METHOD=POST ACTION="http://63.249.248.35/cgi-bin/formmail.cgi" name="Survey" 
+name="the_sub" onSubmit="setSubscribe(); return false;">
+<input type=hidden name="recipient" value="survey@karaite-korner.org">
+<input type=hidden name="redirect" value="http://www.karaite-korner.org/thanks.shtml">
+<input type=hidden name="subject" value="Karaite Korner Survey">
+<input type=hidden name="env_report" value="REMOTE_HOST,REMOTE_ADDR,REMOTE_USER,HTTP_USER_AGENT">
+<TABLE BORDER="1" CELLPADDING="2" cellspacing="0" bgcolor="black">
+<td align=left><font size="-1" color="#ffffcc">
+<center><img src="../subscrip.gif" width=150 height=138></center>
+<center><INPUT TYPE="TEXT" NAME="e_mail" SIZE=15 VALUE="&lt;Your E-mail&gt;">
+</center>
+<center><input type="submit" value="Subscribe"></center>
+<INPUT TYPE="hidden" NAME="subject" VALUE="Subscriptions">
+<INPUT TYPE="hidden" NAME="next-url" VALUE="/Athens/Bridge/3026/kkthank2.html">
+</td></table>
+</form>
+<!--end SUBSCRIPTION BOX-->
+
+
+
+</font>
